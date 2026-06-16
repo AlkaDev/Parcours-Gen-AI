@@ -17,4 +17,4 @@ while not gagne:
         print("Félicitation ! vous avez trouvé le nombre")
         gagne = True
 
-
+#fin de la partie
