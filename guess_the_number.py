@@ -2,6 +2,7 @@ import random
 nombre_secret = random.randint(1, 200)
 print("Moi j'ai choisi le nombre entre 1 et 200. À toi de deviner !")
 gagne = False
+print("Bienvenue dans mon jeu de devinette !")
 
 # la boucle while va nous aider à signaler à l'utilisateur que tant que :
 while not gagne:
@@ -14,7 +15,7 @@ while not gagne:
     elif essaye > nombre_secret:
         print("Trop grand")
     else:
-        print("Félicitation ! vous avez trouvé le nombre")
+        print("Félicitation ! tu as trouvé le nombre secret")
         gagne = True
 
 #fin de la partie
