@@ -5,7 +5,7 @@ gagne = False
 
 # la boucle while va nous aider à signaler à l'utilisateur que tant que :
 while not gagne:
-    saisir = input("tente avec ta proposition : ")
+    saisir = input("Propose un chiffre ou nombre : ")
     # et converti le texte en un nombre entier
     essaye = int(saisir)
     
