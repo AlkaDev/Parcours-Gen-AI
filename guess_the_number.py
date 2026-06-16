@@ -5,9 +5,11 @@ gagne = False
 
 # la boucle while va nous aider à signaler à l'utilisateur que tant que :
 while not gagne:
+    tentatives = 0
     saisir = input("Propose un chiffre ou nombre : ")
     # et converti le texte en un nombre entier
     essaye = int(saisir)
+    tentatives = tentatives + 1
     
     if essaye < nombre_secret:
         print("Trop petit")
