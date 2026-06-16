@@ -1,6 +1,6 @@
 import random
-nombre_secret = random.randint(1, 150)
-print("Moi j'ai choisi le nombre entre 1 et 150. À toi de deviner !")
+nombre_secret = random.randint(1, 200)
+print("Moi j'ai choisi le nombre entre 1 et 200. À toi de deviner !")
 gagne = False
 
 # la boucle while va nous aider à signaler à l'utilisateur que tant que :
