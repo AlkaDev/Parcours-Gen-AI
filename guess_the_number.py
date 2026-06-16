@@ -15,7 +15,7 @@ while not gagne:
     elif essaye > nombre_secret:
         print("Trop grand")
     else:
-        print("Félicitation ! vous avez trouvé le nombre")
+        print("Félicitation ! tu as trouvé le nombre secret")
         gagne = True
 
 #fin de la partie
