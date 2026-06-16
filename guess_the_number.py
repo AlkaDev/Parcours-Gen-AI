@@ -6,9 +6,11 @@ print("Bienvenue dans mon jeu de devinette !")
 
 # la boucle while va nous aider à signaler à l'utilisateur que tant que :
 while not gagne:
+    tentatives = 0
     saisir = input("Propose un chiffre ou nombre : ")
     # et converti le texte en un nombre entier
     essaye = int(saisir)
+    tentatives = tentatives + 1
     
     if essaye < nombre_secret:
         print("Trop petit")
@@ -16,6 +18,7 @@ while not gagne:
         print("Trop grand")
     else:
         print("Félicitation ! tu as trouvé le nombre secret")
+        print("Nombre d'essais :", tentatives)
         gagne = True
 
 #fin de la partie
