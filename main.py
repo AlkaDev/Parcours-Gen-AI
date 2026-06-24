@@ -18,16 +18,27 @@ canvas.pack()
 # Classe pour dessiner la route
 class Route:
 
-    def dessiner(self):
+ def dessiner(self):
 
-        canvas.create_rectangle(
-            0,
-            200,
-            900,
-            400,
-            fill="#555555",
-            outline=""
-        )
+    # Route horizontale
+    canvas.create_rectangle(
+        0,
+        200,
+        900,
+        400,
+        fill="#555555",
+        outline=""
+    )
+
+    # Route verticale
+    canvas.create_rectangle(
+        350,
+        0,
+        550,
+        600,
+        fill="#555555",
+        outline=""
+    )
 
 # Création de la route
 route = Route()
