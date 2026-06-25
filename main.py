@@ -39,6 +39,27 @@ class Route:
         fill="#555555",
         outline=""
     )
+    # Ligne centrale horizontale
+    canvas.create_line(
+        0,
+        300,
+        900,
+        300,
+        fill="white",
+        width=3,
+        dash=(20, 10)
+    )
+
+    # Ligne centrale verticale
+    canvas.create_line(
+        450,
+        0,
+        450,
+        600,
+        fill="white",
+        width=3,
+        dash=(20, 10)
+    )
 
 # Création de la route
 route = Route()
